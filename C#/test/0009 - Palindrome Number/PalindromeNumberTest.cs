@@ -1,9 +1,9 @@
-using LeetCode.Solutions._2_PalindromeNumber;
+using LeetCode.Solutions._0002_PalindromeNumber;
 using Xunit;
 
-namespace LeetCode_Solutions.Tests._2_PalindromeNumber
+namespace LeetCode_Solutions.Tests._0002_PalindromeNumber
 {
-  public class PalindromeNumberTest
+  public class PalromeNumberTest
   {
     [Theory]
     [MemberData(nameof(PalindromeNumberTestData.PalindromeNumber_ExpectedResult_Match), MemberType = typeof(PalindromeNumberTestData))]

@@ -1,7 +1,7 @@
-using LeetCode.Solutions._1_Two_Sum;
+using LeetCode.Solutions._0001_Two_Sum;
 using Xunit;
 
-namespace LeetCode_Solutions.Tests._1_Two_Sum
+namespace LeetCode_Solutions.Tests._0001_Two_Sum
 {
   public class TwoSumTest
   {

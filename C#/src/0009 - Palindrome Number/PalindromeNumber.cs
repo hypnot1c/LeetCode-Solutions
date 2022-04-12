@@ -23,7 +23,10 @@ namespace LeetCode.Solutions._2_PalindromeNumber
 
     public static bool PalindromeNumberNoString(int x)
     {
-      if (x < 0) return false;
+      if (x < 0 || (x % 10 == 0 && x != 0))
+      {
+        return false;
+      }
 
       var xx = x;
       var left = xx % 10;
@@ -32,11 +35,11 @@ namespace LeetCode.Solutions._2_PalindromeNumber
       while (left > 0 || (xx / 10) > 0)
       {
         bits.Add(left);
-        xx = xx / 10;
+        xx /= 10;
         left = xx % 10;
       }
 
-      if (bits.Count == 0 || bits.Count == 1)
+      if (bits.Count == 1)
       {
         return true;
       }

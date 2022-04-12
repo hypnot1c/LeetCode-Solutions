@@ -1,7 +1,7 @@
-using LeetCode.Solutions._0002_PalindromeNumber;
+using LeetCode.Solutions._0009_PalindromeNumber;
 using Xunit;
 
-namespace LeetCode_Solutions.Tests._0002_PalindromeNumber
+namespace LeetCode_Solutions.Tests._0009_PalindromeNumber
 {
   public class PalromeNumberTest
   {

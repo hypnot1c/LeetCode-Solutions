@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LeetCode_Solutions.Tests._0002_PalindromeNumber
+namespace LeetCode_Solutions.Tests._0009_PalindromeNumber
 {
   public class PalindromeNumberTestData
   {
